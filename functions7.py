@@ -31,7 +31,7 @@ def factorial(n):
 # Example usage
 if __name__ == "__main__":
     print("Addition example:", add_numbers(5, 7))
-    print("Greeting example:", greet("Alice"))
+    print("Greeting example:", greet("adil"))
     print("Even number example:", is_even(10))
     print("Area example:", calculate_area(4, 6))
     print("Factorial example:", factorial(5))

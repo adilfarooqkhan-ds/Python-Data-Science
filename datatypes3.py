@@ -10,15 +10,15 @@
 
 # Integer example
 age = 25
-print("int example:", age, type(age))
+print( age, type(age))
 
 # Float example
 price = 19.99
-print("float example:", price, type(price))
+print(price, type(price))
 
 # Complex number example
 z = 3 + 4j
-print("complex example:", z, type(z))
+print(z, type(z))
 
 # Arithmetic operations with numeric types
 print("Addition:", 10 + 5)
@@ -33,12 +33,11 @@ print("Exponentiation:", 2 ** 3)
 # A string is a sequence of characters enclosed in single quotes, double quotes,
 # or triple quotes. Strings are immutable, meaning they cannot be changed once created.
 
-name = "Alice"
+name = "Adil"
 message = 'Hello, Python!'
-paragraph = """This is a multi-line
-string example."""
+paragraph = """This is a multi-line string example."""
 
-print("string example:", name, type(name))
+print( name, type(name))
 print(message)
 print(paragraph)
 
@@ -47,8 +46,8 @@ print("Length:", len(name))
 print("Uppercase:", name.upper())
 print("Lowercase:", name.lower())
 print("Replace:", message.replace("Python", "World"))
-print("Concatenation:", "Hello" + " " + "Alice")
-print("Slicing:", name[0:3])
+print("Concatenation:", "Hello" + " " + "Adil")
+print("Slicing:", name[0:2]) #accessing charcters in a string using slicing
 print("Character access:", name[1])
 
 # Example of string immutability
@@ -59,29 +58,29 @@ print("Character access:", name[1])
 # Lists can contain mixed data types and allow duplicates.
 
 numbers = [1, 2, 3, 4, 5]
-mixed_list = [10, "aadil", 3.14, True]
+mixed_list = [10, "adil", 3.14, True]
 
-print("list example:", numbers, type(numbers))
-print("mixed list:", mixed_list)
+print(numbers, type(numbers))
+print(mixed_list)
 
 # List operations
 numbers.append(6)
-print("After append:", numbers)
+print(numbers)
 numbers.insert(0, 0)
-print("After insert:", numbers)
+print( numbers)
 numbers.remove(3)
-print("After remove:", numbers)
+print( numbers)
 popped = numbers.pop()
-print("Popped item:", popped)
-print("List after pop:", numbers)
-print("Index 2 value:", numbers[2])
-print("Slice:", numbers[1:4])
-print("Length:", len(numbers))
-print("Sorted list:", sorted(numbers))
+print( popped)
+print( numbers)
+print(numbers[2])
+print(numbers[1:4])
+print(len(numbers))
+print(sorted(numbers))
 
 # List can also be reversed
 numbers.reverse()
-print("Reversed list:", numbers)
+print(numbers)
 
 # 4) Tuples
 # A tuple is an ordered, immutable collection of items enclosed in parentheses ().
@@ -89,14 +88,14 @@ print("Reversed list:", numbers)
 
 point = (10, 20)
 colors = ("red", "green", "blue")
-print("tuple example:", point, type(point))
-print("colors:", colors)
+print(point, type(point))
+print(colors)
 
 # Tuple operations
-print("Index 0:", point[0])
-print("Length:", len(point))
-print("Tuple concatenation:", point + (30, 40))
-print("Repeated tuple:", colors * 2)
+print( point[0])
+print( len(point))
+print( point + (30, 40))
+print( colors * 2)
 
 # Tuple cannot be modified
 # point[0] = 15  # This would raise an error because tuples are immutable.
@@ -106,23 +105,23 @@ print("Repeated tuple:", colors * 2)
 # Each key is unique and is used to access its corresponding value.
 
 student = {
-    "name": "Bob",
-    "age": 21,
+    "name": "adil",
+    "age": 24,
     "course": "Computer Science"
 }
-print("dictionary example:", student, type(student))
+print( student, type(student))
 
 # Dictionary operations
-print("Name:", student["name"])
+print( student["name"])
 student["grade"] = "A"
-print("After adding grade:", student)
+print( student)
 student["age"] = 22
-print("After updating age:", student)
-print("Keys:", student.keys())
-print("Values:", student.values())
-print("Items:", student.items())
-print("Pop age:", student.pop("age"))
-print("Dictionary after pop:", student)
+print( student)
+print( student.keys())
+print(student.values())
+print( student.items())
+print(student.pop("age"))
+print( student)
 
 # 6) Sets
 # A set is an unordered collection of unique items enclosed in curly braces {}.
@@ -130,8 +129,8 @@ print("Dictionary after pop:", student)
 
 set_a = {1, 2, 3, 4, 4, 5}
 set_b = {3, 4, 5, 6, 7}
-print("set example:", set_a, type(set_a))
-print("Duplicate numbers removed:", set_a)
+print(set_a, type(set_a))
+print( set_a)
 
 # Set operations
 print("Union:", set_a | set_b)
@@ -156,29 +155,28 @@ print("After remove:", set_a)
 # 8) Extra examples for practice
 # Example 1: Numeric information
 temperature = 36.6
-print("Temperature:", temperature)
+print( temperature)
 
 # Example 2: String information
 book_title = "Python for Beginners"
-print("Book title:", book_title)
-print("First 6 letters:", book_title[:6])
+print( book_title)
+print(book_title[:6])
 
 # Example 3: List information
 shopping_list = ["milk", "bread", "eggs"]
 shopping_list.append("juice")
-print("Shopping list:", shopping_list)
+print( shopping_list)
 
 # Example 4: Tuple information
 date = (2024, 10, 15)
-print("Date:", date)
+print(date)
 
 # Example 5: Dictionary information
-employee = {"name": "Sara", "salary": 50000, "department": "HR"}
-print("Employee:", employee)
+employee = {"name": "adil", "salary": 50000, "department": "HR"}
+print( employee)
 
 # Example 6: Set information
 numbers_set = {10, 20, 30, 20, 40}
 print("Unique numbers:", numbers_set)
 
-# End of file
-print("All data types explained with examples.")
+
