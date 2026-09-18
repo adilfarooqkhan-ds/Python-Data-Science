@@ -1,9 +1,3 @@
-"""Functions, arguments, and lambda functions.
-
-This file demonstrates their definitions, uses, and examples.
-"""
-
-
 # Function definition:
 # A function is a reusable block of code that performs a specific task.
 # It is defined with `def`, followed by a name, parameters, and a body.

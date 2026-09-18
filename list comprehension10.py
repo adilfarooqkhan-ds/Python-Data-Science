@@ -1,7 +1,4 @@
-
-
 from functools import reduce
-
 
 # 1. List comprehensions
 # Definition: a concise way to create a list by transforming or selecting
